@@ -1,0 +1,2 @@
+# Unexpected Null Comparison in PHP
+This example demonstrates a common pitfall in PHP when dealing with loose typing and comparisons against `null`.  The code attempts to handle `null` input gracefully, but due to PHP's loose comparison rules, other "falsy" values like 0 and false may also trigger the null-handling logic unexpectedly.  The solution outlines how to use strict comparisons (`===`) to resolve this.
